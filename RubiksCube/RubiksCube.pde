@@ -30,8 +30,8 @@ boolean shuffling;
 Move currentMove;
 
 void setup() {
-  size(600, 600, P3D);
-  //fullScreen(P3D);
+  //size(600, 600, P3D);
+  fullScreen(P3D);
   cam = new PeasyCam(this, 400);
   cam.setMinimumDistance(200);
   cam.setMaximumDistance(500);
